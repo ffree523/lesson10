@@ -1,0 +1,455 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('../fonts/GraphikLCG-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('../fonts/GraphikLCG-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+header {
+    background-color: #FFFFFF;
+    height: 95px;
+}
+.head {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 0px 20px;
+}
+.tetris {
+    width: 115px;
+}
+.product {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+
+}
+.product a {
+    margin: 40px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.login {
+    border: 1px solid;
+    padding: 10px 36px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+}
+.tryitfree {
+    background-color: #FF6336;
+    padding: 11px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.white {
+    height: 862px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+.accelerate {
+    width: 552px;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 70px;
+    margin: 129px 0px 0px 75px;
+}
+.alocalization {
+    width: 471px;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 35px;
+    margin: 51px 68px 50px 75px;
+}
+.white a {
+    font-size: 16px;
+    line-height: 60px;
+}
+.button {
+    margin: 0px 10px 25px 75px;
+}
+.tryall {
+    width: 369px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0px 170px 0px 75px;
+}
+.first {
+    padding: 21px 53px;
+}
+.double {
+    padding: 20px 42px;
+}
+.img1 {
+    height: 529px;
+    margin: 151px 0px 182px 67px;
+}
+.orange {
+    height: 455px;
+    background-color: #FF9C7D;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.preffered {
+    height: 120px;
+    width: 720px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+
+}
+.prefimg {
+    height: 97px;
+    width: 100%;
+}
+.bigwhite {
+    height: 3368px;
+    background-color: #FFFFFF;
+    padding: 0px 20px;
+}
+.one {
+    display: flex;
+    justify-content: space-around;
+}
+.one div {
+    margin-top: 241px;
+    margin-left: 50px;
+}
+.zagolovok {
+    width: 493px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.opisanie {
+    width: 426px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.startnow {
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.oneproject {
+    height: 632px;
+    margin: 90px 75px 0px 165px;
+}
+.two {
+    display: flex;
+    justify-content: space-around;
+    padding: 250px 0px 0px 0px;
+}
+.two div {
+    margin-left: 138px;
+}
+.three {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 250px;
+}
+.four {
+    display: flex;
+    justify-content: space-around;
+    padding: 250px 0px 0px 0px;
+    margin-right: 0px;
+}
+.fourless {
+    height: 632px;
+}
+.bejevuy {
+    height: 1033px;
+    background-color: #FFF8E4;
+    margin-top: 150px;
+}
+.what_lokalise {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+.oglav {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    margin: 12px 0px;
+}
+.opis {
+    width: 290px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin: 12px 0px;
+}
+.six_element {
+    display: flex;
+    justify-content: space-around;
+}
+.eins {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.six_element2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+.minwhite {
+    height: 1000px;
+    background-color: #FFFFFF;
+}
+.boost {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+.drei_element {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.zwei {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.og {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 12px 0px;
+}
+.op {
+    width: 409px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 12px 0px;
+}
+.blue {
+    height: 468px;
+    background: #C9E8F2;
+}
+.laguna {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lokalisehasturned {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    width: 921px;
+}
+.edwardchief {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.mujik {
+    width: 310px;
+    height: 310px;
+}
+.telesnuy {
+    height: 332px;
+    background-color: #DABC98;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.most-loved {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50px;
+    height: 100px;
+    width: 461px;
+}
+.rates {
+    height: 200px;
+}
+.birdis {
+    height: 1000px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.integrate  {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 75px;
+    height: 150px;
+    width: 791px;
+    text-align: center;
+    margin: 0px;
+}
+.automate {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    height: 60px;
+    width: 539px;
+}
+.but {
+    margin-top: 50px;
+}
+.seeallintegr {
+    background-color: #FF6336;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF
+}
+.tryitblack {
+    background-color: black;
+    padding: 11px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.oppps {
+    width: 409px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 12px 0px;
+    text-align: center;
+}
+
+.foot {
+    height: 700px;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.case {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.bikeimg {
+    height: 300px;
+    width: 300px;
+}
+.riding {
+    width: 270px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+.readmore {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left
+}
+.prod {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+}
+.for {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    margin: 15px 0px;
+}
+.aaaaa {
+    display: flex;
+    flex-direction: column;
+}
+.bbbb {
+    display: flex;
+}
+.bbbb div {
+    margin: 10px;
+}
+.hhh {
+    margin: 0px;
+}
+footer {
+    height: 125px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lokalise2 {
+    height: 20px;
+}
+.workflow {
+    width: 290px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.years {
+    width: 77px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0px;
+}
+.rece {
+    width: 120px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0px;
+}
+.lokwork {
+    display: flex;
+    align-items: center;
+}
+.lokwork div {
+    margin: 10px;
+}
